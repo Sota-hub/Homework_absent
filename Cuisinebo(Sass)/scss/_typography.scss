@@ -1,0 +1,56 @@
+@use 'base' as b;
+
+.main-heading {
+  font-family: b.$font-dancingScript;
+  font-size: 8rem;
+  color: b.$color-primary;
+}
+
+.sub-heading {
+  font-family: b.$font-josefinSans;
+  font-size: 5rem;
+  font-weight: 300;
+  color: b.$color-secondary;
+}
+
+.main-name {
+  font-family: b.$font-nunito;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: b.$color-secondary;
+}
+
+.sub-name {
+  font-family: b.$font-nunito;
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: b.$color-secondary;
+}
+
+.main-btn {
+  background: none;
+  font-family: b.$font-josefinSans;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: b.$color-primary;
+  text-transform: uppercase;
+  border: b.$color-primary 1px solid;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  border: b.$color-primary 3px solid;
+  border-radius: 50%;
+  width: 116px;
+  height: 116px;
+  margin-right: 2rem;
+
+  img {
+    color: b.$color-white;
+    width: 110px;
+    height: 110px;
+  }
+}

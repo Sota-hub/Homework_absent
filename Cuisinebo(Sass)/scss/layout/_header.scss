@@ -1,0 +1,25 @@
+@use "../base" as b;
+@use "../typography";
+
+.header {
+  height: 100vh;
+  background-image: url(../../images/bg.jpeg);
+  background-position: center;
+  background-size: cover;
+
+  .brand {
+    @include b.flexLayout;
+    z-index: 20;
+    @include b.centering(15%);
+  }
+
+  .header-banner {
+    z-index: 20;
+    @include b.centering(50%);
+    text-align: center;
+
+    & > * {
+      margin-bottom: 3rem;
+    }
+  }
+}
